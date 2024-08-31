@@ -1,0 +1,7 @@
+git clone <github项目地址.git>		-----将github仓库资源下载到本地
+git status			-----对比本地项目和github仓库资源
+git add <新增内容>		-----将项目新增内容放入git中，等待传输
+git config --global user.email/user.name "<you@example.com/you name>"	----在你本地电脑登录github账号
+git commit -m "<说明>"	-----提交git add的新内容，并附上“说明”
+git push		-----上传git的内容到github
+git pull		-----从github仓库下载资源到本地，需要在项目目录下执行
